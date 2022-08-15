@@ -9,7 +9,8 @@
     "test": "jest",
     "eslint": "eslint './**/*.{js,jsx}'",
     "build": "webpack --mode production",
-    "test:e2e": "cypress run"
+    "test:e2e": "cypress run",
+    "buildCI": "npm run build && npm run start-prod"
   },
   "repository": {
     "type": "git",
