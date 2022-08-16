@@ -34,3 +34,5 @@ jobs:
           heroku_app_name: "fso-part11"
           heroku_email: "sadmanyasarsayem@gmail.com"
           procfile: "web: npm run start-prod"
+          healthcheck: "https://fso-part11.herokuapp.com/health"
+          checkstring: "ok"
