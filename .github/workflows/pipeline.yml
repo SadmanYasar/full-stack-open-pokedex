@@ -33,4 +33,4 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "fso-part11"
           heroku_email: "sadmanyasarsayem@gmail.com"
-          procfile: "web: npm start-prod"
+          procfile: "web: npm run start-prod"
